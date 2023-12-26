@@ -1,0 +1,27 @@
+.button-container {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+#delete {
+  border: red 2px solid;
+  color: red;
+}
+#update {
+  border: green 2px solid;
+  color: green;
+}
+
+#delete:hover {
+  border: red 2px solid;
+  color: white;
+  background-color: red;
+}
+
+#update:hover {
+  border: green 2px solid;
+  color: white;
+  background-color: green;
+}
